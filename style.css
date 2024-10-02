@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    background-image: url("./images/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    bottom: 0;
+}
+header{
+    position: fixed;
+    background-color: rgb(55,56,58);
+}
+.img1{
+    overflow: hidden;
+    margin-right: 20%;
+    
+}
+header p{
+    color: rgb(252,191,0);
+    float: right;
+    margin-top: 30px;
+    margin-right: 45px;
+    animation: heartBeat;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-size: 120%;
+}
+/* .navbar{
+    background-color: rgb(236, 253, 8);
+    }
+    .navbar a{
+        width: 25%;
+        text-transform: uppercase;
+        } */
+.navbar {
+    padding: 10px 20px; /* Padding around the navbar */
+    background-color: rgb(252,191,0); /* Dark background */
+    justify-content: space-around; /* Space items evenly */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+.navbar a {
+    font-weight: bold;
+    color: black; /* Text color */
+    padding: 8px 16px; /* Padding around links */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+.navbar a:hover {
+    border-radius: 4px; /* Slightly rounded corners */
+    background-color: black; /* Darker background on hover */
+    color: white;
+}
+.banner-image{
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin:auto;
+    width: 40%;
+    border: 2px solid black;
+    color: rgb(252,191,0);
+    background-color: #545559;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.course {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    /* padding: ; */
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course h2 {
+    background-color: #fcbf00;
+    padding: 10px;
+    border: 2px solid black;
+    /* margin-bottom: ; */
+    color: #333;
+}
+
+.course img {
+    width: 100%;
+    height: 90%;
+}
+
+.course p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+.footer {
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    width:100%;
+    bottom: 0;
+    
+}
+
+.footer p {
+    font-size: 1em;
+}
+
